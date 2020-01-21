@@ -12,7 +12,7 @@ function reset() {
 
     userNumber = 0;
 
-    targetNumber = Math.floor(Math.random() * 120) + 19;
+    targetNumber = Math.floor(Math.random() * 120) + 20;
     //tell js to place targetNumber in the html
     $("#targetNumber").text("Target Number: " + targetNumber);
 
